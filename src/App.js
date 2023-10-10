@@ -4,11 +4,13 @@ import './App.css';
 import {Route, Routes} from "react-router-dom";
 import Register from './views/Register';
 import Home from './views/Home';
+import Header from './Components/header/Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <div className="page-container">
       <Routes>
         <Route exact path="/" element={<Home/>}/>
