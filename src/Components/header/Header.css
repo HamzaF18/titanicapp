@@ -12,9 +12,16 @@ h1{
     flex:1;
 }
 .nav-button{
+<<<<<<< HEAD
     background-color: rgb(44, 38, 38);
     height: 50px;
     width:120px;
+=======
+    background-color: grey;
+    display: flex;
+    justify-content:center;
+    
+>>>>>>> 07e2e74ca4632bbdc4ede56c14ddcc1bb2a357ae
 }
 .nav-area{
     display: flex;
