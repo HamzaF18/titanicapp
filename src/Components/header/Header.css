@@ -6,6 +6,9 @@
 }
 .nav-button{
     background-color: grey;
+    display: flex;
+    justify-content:center;
+    
 }
 .nav-area{
     display:column;
