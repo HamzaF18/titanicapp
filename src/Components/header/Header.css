@@ -1,9 +1,12 @@
 .header-container{
-    border: 2px solid blue;
-    background-color: rgb(105, 7, 7);
+    border: 5px solid white;
+    background-color: rgb(44, 38, 38);
+    color: white;
+
 }
 .nav-button{
-    color: black;
-    
-
+    background-color: grey;
+}
+.nav-area{
+    display:column;
 }

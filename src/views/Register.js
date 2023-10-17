@@ -3,20 +3,16 @@ import "./Register.css"
 const Register = () =>{
     return(
         <div>
-            <h1>Register page</h1>
+            <h1>Registration</h1>
             <form className="auth-form">
-                <fieldset>
+                <fieldset className="auth-set">
                     <legend>
-                        Username and Password
+                        Details
                     </legend>
-             <input className="input-container" type="username" name="id" placeholder="username"/>
-                <input className="input-container" type="password" name="id" placeholder="password"/>
-                <fieldset>
-                    <legend>
-                        Enter in your email adress
-                    </legend>
-                    <input type="email" name="email" placeholder="Email Address"/>
-                </fieldset>
+                    <p>Create a username</p>
+             <input className="input-container" type="username" name="id" placeholder="username" required/>
+             <p>Create a password</p>
+                <input className="input-container" type="password" name="id" placeholder="password" required/>
                 </fieldset>
                 <button className="button-container">Create Account</button>
             </form>
