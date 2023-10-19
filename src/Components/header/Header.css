@@ -1,40 +1,50 @@
 .header-container{
-    border-bottom: 5px solid white;
-    background-color: rgb(44, 38, 38);
+    
+    /* background-color: rgb(44, 38, 38); */
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
+    position: absolute;
+    width: 100%;
+    
 
 }
 h1{
     margin: 0;
-    flex:1;
 }
-.nav-button{
-<<<<<<< HEAD
-    background-color: rgb(44, 38, 38);
-    height: 50px;
-    width:120px;
-=======
-    background-color: grey;
-    display: flex;
-    justify-content:center;
-    
->>>>>>> 07e2e74ca4632bbdc4ede56c14ddcc1bb2a357ae
-}
-.nav-area{
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 .logo-container{
     /* height:100px; */
     display: flex;
-    /* margin-top: -90px; */
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+    
+}
+.nav-buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+.nav-button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15pt;
+    padding: 5px 10px;
+}
+.nav-button:hover{
+    color: rgb(140,183,233);
+    cursor:pointer;
 }
 
+
 .Logo{
-    width: 140px;
-    height: 140px;
+    max-width: 200px;
+    max-height: 200px;
 }

@@ -3,6 +3,7 @@ import "./Login.css"
 const Login = () =>{
     return(
         <div>
+            <h1>Login</h1>
             <form className="auth-form">
                 <fieldset className="auth-set">
                     <legend>Login</legend>
