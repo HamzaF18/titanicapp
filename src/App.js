@@ -1,28 +1,65 @@
 import logo from './logo.svg';
+
 import './App.css';
 
-import {Route, Routes} from "react-router-dom";
+
+
+
+import { Route, Routes } from "react-router-dom";
+
 import Register from './views/Register';
+
 import Home from './views/Home';
+
 import Header from './Components/header/Header';
+
 import Login from './views/Login';
+
+import About from './views/About';
+
+import Help from './views/Help';
+
+
+
 
 
 function App() {
+
   return (
+
     <div className="App">
-      <Header/>
+
+      <Header />
+
       <div className="page-container">
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/home" element={<Home/>}/>
-        <Route exact path="/register" element={<Register/>}/>
-        <Route exact path="/login" element={<Login/>}/>
-      </Routes>
-      
+
+        <Routes>
+
+          <Route exact path="/" element={<Home />} />
+
+          <Route exact path="/home" element={<Home />} />
+
+          <Route exact path="/register" element={<Register />} />
+
+          <Route exact path="/login" element={<Login />} />
+
+          <Route exact path="/about" element={<About />} />
+
+          <Route exact path="/help" element={<Help />} />
+
+        </Routes>
+
+
+
       </div>
+
     </div>
+
   );
+
 }
 
-export default App;
+
+
+
+export default App; 

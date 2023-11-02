@@ -1,4 +1,199 @@
-p{
-    font-size:50px;
-    
+.background-image {
+
+    background-image: url("https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    height: calc( 100vh - 300px);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    padding-top: 300px;
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+    /* border: 1px solid red; */
+
+}
+
+h1 h2 {
+
+    color: white;
+
+}
+
+
+
+
+.home-content {
+
+
+
+    width: 100%;
+
+    position: absolute;
+
+    top: 50%;
+
+    color: white;
+
+}
+
+.content h1 {
+
+    font-size: 70px;
+
+    margin-top: 80px;
+
+}
+
+
+
+
+.content-page-buttons {
+
+    width: 200px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    margin: 20px 10px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    border: 2px solid #009688;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+
+    background-color: rgb(44, 38, 38);
+
+}
+
+.content-page-buttons:hover {
+
+    /*background-color:rgb(44, 38, 38);*/
+
+    opacity: 0.8;
+
+}
+
+
+
+
+.pra {
+
+    text-align: center;
+
+}
+
+.service {
+
+    background: rgb(31, 18, 18);
+
+    width: 100%;
+
+    padding: 100px 0px;
+
+}
+
+.title h1 {
+
+    color: white;
+
+    font-size: 75px;
+
+    max-width: 1130px;
+
+    margin: 30px auto;
+
+    text-align: center;
+
+}
+
+.box {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 400px;
+
+
+
+
+}
+
+.card {
+
+    height: 365px;
+
+    width: 335px;
+
+    padding: 20px 35px;
+
+    background: #191919;
+
+    border-radius: 20px;
+
+    margin: 15px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+.card i {
+
+    font-size: 50px;
+
+    display: block;
+
+    text-align: center;
+
+    margin: 25px 0px;
+
+    color: white;
+
+}
+
+h4 {
+
+    color: white;
+
+    font-size: 23px;
+
+    margin-bottom: 15px;
+
+}
+
+.pra p {
+
+    color: white;
+
+    font-size: 16px;
+
+    line-height: 27px;
+
+    margin-bottom: 25px;
+
+}
+
+.button{
+    color:white;
 }

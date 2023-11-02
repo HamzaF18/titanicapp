@@ -1,20 +1,42 @@
-import "./Login.css"
+import "./Login.css" 
 
-const Login = () =>{
-    return(
-        <div>
-            <h1>Login</h1>
-            <form className="auth-form">
-                <fieldset className="auth-set">
-                    <legend>Login</legend>
-                    <input className="input-container" type="text" placeholder="Username" required/>
-                    <input className="input-container" type="password" placeholder="password" required/>
-                    <button>Login</button>
-                </fieldset>
-            </form>
+ 
+ 
 
+const Login = () =>{ 
 
-        </div>
-    )
-}
-export default Login;
+    return( 
+
+        <div className="background-image"> 
+
+             
+
+            <form className="auth-form"> 
+
+            <h1>Login</h1> 
+
+            <br></br> 
+
+                    <input className="login-input" type="text" placeholder="Username" required/> 
+
+                    <br></br> 
+
+                    <input className="login-input" type="password" placeholder="password" required/> 
+
+                <br></br> 
+
+                <button>Login</button> 
+
+            </form> 
+
+ 
+ 
+ 
+
+        </div> 
+
+    ) 
+
+} 
+
+export default Login; 
