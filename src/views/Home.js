@@ -30,7 +30,7 @@ const Home = () => {
 
     return (
 
-        <div>
+        
 
             <div>
 
@@ -142,13 +142,7 @@ const Home = () => {
                 </section>
 
             </div>
-            <div className="links">
-                <a href="#">Terms and agreements</a>
-                <a href="#">About</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Faq</a>
-            </div>
-        </div>
+        
 
 
 

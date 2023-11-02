@@ -5,7 +5,7 @@ import './App.css';
 
 
 
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Register from './views/Register';
 
@@ -18,6 +18,8 @@ import Login from './views/Login';
 import About from './views/About';
 
 import Help from './views/Help';
+
+import Sitemap from './Components/Sitemap/Sitemap';
 
 
 
@@ -32,7 +34,7 @@ function App() {
       <Header />
 
       <div className="page-container">
-
+        
         <Routes>
 
           <Route exact path="/" element={<Home />} />
@@ -48,10 +50,8 @@ function App() {
           <Route exact path="/help" element={<Help />} />
 
         </Routes>
-
-
-
       </div>
+      <Sitemap/>
 
     </div>
 

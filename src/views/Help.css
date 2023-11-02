@@ -1,0 +1,31 @@
+.help-title{
+    border: 2px solid black;
+    color:white;
+    background-color:rgb(104, 23, 23);
+    width:50%;
+    margin:auto;
+    padding:20px 10px;
+}
+.help-buttons{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+}
+.help-buttons button{
+    border: 1px solid rgb(22, 21, 21);
+    padding: 20px 15px;
+}
+.help-buttons button:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+.help-text{
+    border:black;
+    background-color: rgb(112, 19, 19);
+    color:white;
+    border-radius: 20px;
+    width:50%;
+    margin:auto;
+    padding:20px 30px;
+}
