@@ -41,9 +41,10 @@ const Home = () => {
                         <h1>WELCOME ABROAD TITANIC FITNESS</h1>
 
                         <h2>Where Your Fitness Journey Sets Sail!</h2>
+                        <br/>
                         <p>Before you decide on joining,<br></br>
                         Why not learn why we are the right gym for you!</p>
-
+                        <br/>
                         <NavButton text="about" path="/about"/>
 
                         <NavButton text="exercises" path="/exercise"/>
