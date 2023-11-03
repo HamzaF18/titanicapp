@@ -21,6 +21,8 @@ import Help from './views/Help';
 
 import Sitemap from './Components/Sitemap/Sitemap';
 
+import Exercise from './views/Exercise';
+
 
 
 
@@ -48,6 +50,8 @@ function App() {
           <Route exact path="/about" element={<About />} />
 
           <Route exact path="/help" element={<Help />} />
+
+          <Route exact path="/exercise" element={<Exercise/>}/>
 
         </Routes>
       </div>

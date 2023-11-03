@@ -15,12 +15,20 @@ const Register = () => {
 
                 <br></br>
 
+                <input className="register-input" type="name" name="name" placeholder="First Name"/>
+                <br></br>
+                <input className="register-input" type="name" name="id" placeholder="Last Name"/>
+                <br></br>
                 <input className="register-input" type="username" name="id" placeholder="Username" required />
 
                 <br></br>
 
                 <input className="register-input" type="password" name="id" placeholder="Password" required />
+                <br></br>
+                <input className="register-input" type="password" name="id" placeholder="Confirm Password" required/>
 
+                <br></br>
+                <input className="register-input" tpe="email" placeholder="Email Address" required/>
                 <br></br>
 
                 <button>Create Account</button>

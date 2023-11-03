@@ -38,13 +38,15 @@ const Home = () => {
 
                     <div className="home-content">
 
-                        <h1>OCEANS DESTIANTION</h1>
+                        <h1>WELCOME ABROAD TITANIC FITNESS</h1>
 
-                        <p>Welcome to Titanic Fitness!<br /> West Londons Very Own Gym group!</p>
+                        <h2>Where Your Fitness Journey Sets Sail!</h2>
+                        <p>Before you decide on joining,<br></br>
+                        Why not learn why we are the right gym for you!</p>
 
-                        <NavButton text="about" path="/about" />
+                        <NavButton text="about" path="/about"/>
 
-                        <NavButton text="exercises" path="/exercises" />
+                        <NavButton text="exercises" path="/exercise"/>
 
                     </div>
 
@@ -70,7 +72,7 @@ const Home = () => {
 
 
 
-                                    <a className="button" href="#">Read More</a>
+                                    <a className="button" href="#">Learn More</a>
 
 
 
@@ -96,7 +98,7 @@ const Home = () => {
 
 
 
-                                    <a className="button" href="#">Read More</a>
+                                    <a className="button" href="#">Learn More</a>
 
 
 
@@ -124,7 +126,7 @@ const Home = () => {
 
 
 
-                                    <a className="button" href="#">Read More</a>
+                                    <a className="button" href="#">Learn More</a>
 
 
 

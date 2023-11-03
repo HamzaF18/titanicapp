@@ -99,7 +99,7 @@ h1 h2 {
 
 .service {
 
-    background: rgb(31, 18, 18);
+    background: rgb(65, 29, 29);
 
     width: 100%;
 
@@ -144,7 +144,7 @@ h1 h2 {
 
     padding: 20px 35px;
 
-    background: #191919;
+    background: #922a2a;
 
     border-radius: 20px;
 
@@ -198,16 +198,4 @@ h4 {
     color:white;
 }
 
-.links a{
-    margin-right: 15px;
-    display:flex;
-    padding:10px;
-    color:white;
-    font-size: 20px;
-    border: 1px solid rgb(241, 238, 238);
-    
-}
-.links{
-    background-color: black;
-    margin: auto;
-}
+

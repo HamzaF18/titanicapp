@@ -1,6 +1,6 @@
 .auth-form{ 
 
-    border: 3px solid rgb(8, 1, 1); 
+    border: 2px solid rgb(8, 1, 1); 
 
      
 
@@ -41,7 +41,7 @@
 
     padding: 9px 10px; 
 
-    border: 2px solid rgb(0, 0, 0); 
+    border: 3px solid rgb(0, 0, 0); 
 
     margin:auto; 
 
@@ -49,7 +49,7 @@
 
     display:flex; 
 
-    border-radius:20px; 
+    
 
 } 
 
