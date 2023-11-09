@@ -57,35 +57,20 @@ h1 h2 {
 .content-page-buttons {
 
     width: 200px;
-
     padding: 15px;
-
     text-align: center;
-
     margin: 20px 10px;
-
     border-radius: 25px;
-
     font-weight: bold;
-
     border: 2px solid #009688;
-
     background: transparent;
-
     color: white;
-
     cursor: pointer;
-
     background-color: rgb(44, 38, 38);
 
-}
-
-.content-page-buttons:hover {
-
-    /*background-color:rgb(44, 38, 38);*/
-
-    opacity: 0.8;
-
+    &:hover{
+        opacity: 0.8;
+    }
 }
 
 
@@ -95,6 +80,15 @@ h1 h2 {
 
     text-align: center;
 
+    & p{
+        color: white;
+
+        font-size: 16px;
+    
+        line-height: 27px;
+    
+        margin-bottom: 25px;
+    }
 }
 
 .service {
@@ -182,17 +176,7 @@ h4 {
 
 }
 
-.pra p {
 
-    color: white;
-
-    font-size: 16px;
-
-    line-height: 27px;
-
-    margin-bottom: 25px;
-
-}
 
 .button{
     color:white;

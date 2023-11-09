@@ -12,8 +12,6 @@ const NavButton = ({ text, path }) => {
     const navigate = useNavigate()
 
 
-
-
     return (
 
         <button className="nav-button" onClick={() => navigate(path)}>

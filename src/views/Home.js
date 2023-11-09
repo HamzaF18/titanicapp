@@ -1,21 +1,16 @@
 import "./Home.css"
 
 import { useNavigate } from "react-router-dom";
-
+import { ReactComponent as MenuIcon} from "../Assests/menuIcon.svg";
 
 
 
 
 const NavButton = ({ text, path }) => {
-
     const navigate = useNavigate()
-
     return (
-
         <button className="content-page-buttons" onClick={() => navigate(path)}>
-
             {text}
-
         </button>
 
     )
@@ -32,7 +27,7 @@ const Home = () => {
 
         
 
-            <div>
+            <> {/*research react fragments */}
 
                 <div className="background-image">
 
@@ -64,6 +59,7 @@ const Home = () => {
                             <div className="card">
 
                                 <i class="fas fa-user-friends"></i>
+                                <MenuIcon/>
 
                                 <h4>Personal Training</h4>
 
@@ -116,6 +112,8 @@ const Home = () => {
                             <div className="card">
 
                                 <i class="fas fa-user-friends"></i>
+                
+
 
                                 <h4>Online Sessions</h4>
 
@@ -144,7 +142,7 @@ const Home = () => {
 
                 </section>
 
-            </div>
+            </>
         
 
 

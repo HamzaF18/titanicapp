@@ -5,7 +5,7 @@ import './App.css';
 
 
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import Register from './views/Register';
 
@@ -29,6 +29,10 @@ import Exercise from './views/Exercise';
 
 function App() {
 
+  function isLoggedIn(){
+    return false
+  }
+
   return (
 
     <div className="App">
@@ -51,7 +55,7 @@ function App() {
 
           <Route exact path="/help" element={<Help />} />
 
-          <Route exact path="/exercise" element={<Exercise/>}/>
+          <Route exact path="/exercise" element={<Exercise/>} />
 
         </Routes>
       </div>

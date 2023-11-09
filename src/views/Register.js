@@ -28,7 +28,7 @@ const Register = () => {
                 <input className="register-input" type="password" name="id" placeholder="Confirm Password" required/>
 
                 <br></br>
-                <input className="register-input" tpe="email" placeholder="Email Address" required/>
+                <input className="register-input" type="email" placeholder="Email Address" required/>
                 <br></br>
 
                 <button>Create Account</button>
