@@ -86,9 +86,9 @@ const Home = () => {
                             <div className="card">
 
                                 <i class="fas fa-user-friends"></i>
-
+                                <MenuIcon/>
                                 <h4>Meal Plans</h4>
-
+                                
                                 <div className="pra">
 
                                     <p>If you aren't sure about the right type of meals you should be eating, don't worry! We have the right meal plan for everyone, even you!</p>
@@ -112,7 +112,7 @@ const Home = () => {
                             <div className="card">
 
                                 <i class="fas fa-user-friends"></i>
-                
+                                <MenuIcon/>
 
 
                                 <h4>Online Sessions</h4>
