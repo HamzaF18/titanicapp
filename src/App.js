@@ -29,7 +29,7 @@ import Exercise from './views/Exercise';
 
 function App() {
 
-  function isLoggedIn(){
+  function isLoggedIn() {
     return false
   }
 
@@ -40,7 +40,7 @@ function App() {
       <Header />
 
       <div className="page-container">
-        
+
         <Routes>
 
           <Route exact path="/" element={<Home />} />
@@ -55,11 +55,11 @@ function App() {
 
           <Route exact path="/help" element={<Help />} />
 
-          <Route exact path="/exercise" element={<Exercise/>} />
+          <Route exact path="/exercise" element={<Exercise />} />
 
         </Routes>
       </div>
-      <Sitemap/>
+      <Sitemap />
 
     </div>
 
